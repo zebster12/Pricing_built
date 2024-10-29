@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  max-width: 1080px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -41,6 +41,7 @@ body {
   display: flex;
   gap: 6px;
   list-style-type: none;
+  flex-wrap: wrap;
 }
 
 .content__cart-link {
@@ -107,7 +108,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 19px;
-  list-style-image: url("/image/XMLID_89_.svg");
+  list-style-image: url("./image/XMLID_89_.svg");
 }
 
 .cart__btn {
