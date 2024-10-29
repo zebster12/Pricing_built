@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  width: 100%;
+  margin-top: 137px;
+  margin-bottom: 72px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.header__title {
+  margin-bottom: 13px;
+  color: #161d25;
+  font-weight: 700;
+  font-size: 38px;
+}
+
+.header__subtitle {
+  color: #5d7085;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.main {
+  margin-bottom: 190px;
+}
+
+.content__list {
+  display: flex;
+  gap: 6px;
+  list-style-type: none;
+}
+
+.content__cart-link {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+}
+
+.cart {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 266px;
+  min-height: 601px;
+  border-radius: 2px;
+  padding: 48px 35px 36px;
+  color: #ffffff;
+}
+
+.cart__top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  width: 266px;
+  width: 100%;
+  padding: 8px 0px;
+  text-align: center;
+  background-color: #5dd4f8;
+}
+
+.cart__img {
+  display: block;
+}
+
+.cart__title {
+  font-weight: 500;
+  font-size: 21px;
+}
+
+.cart__text {
+  margin-bottom: 27px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.card__price {
+  display: flex;
+  align-items: start;
+  max-width: 85px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.cart__price-big {
+  font-weight: 700;
+  font-size: 67px;
+}
+
+.cart__info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  list-style-image: url("/image/XMLID_89_.svg");
+}
+
+.cart__btn {
+  margin-top: auto;
+  border: 2px solid #ffffff;
+  border-radius: 3px;
+  padding: 13px 51px 11px 52px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  background-color: transparent;
+  white-space: nowrap;
+}
+
+.blue {
+  background-color: #6bdfff;
+}
+
+.yellow {
+  background-color: #fdc624;
+}
+
+.xz {
+  background-color: #55dce7;
+}
+
+.grey {
+  background-color: #bfcedc;
+}
+
+.btn-blue:hover {
+  color: #6bdfff;
+}
+
+.btn-yellow:hover {
+  color: #fdc624;
+}
+
+.btn-xz:hover {
+  color: #55dce7;
+}
+
+.btn-grey:hover {
+  color: #bfcedc;
+}
+
+.cart__btn:hover {
+  background-color: #ffffff;
+}
